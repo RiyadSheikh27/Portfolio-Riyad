@@ -6,12 +6,12 @@ const About = () => {
 
   // ?? Handle Download Resume
   const handleDownload = () => {
-    const resumeUrl =
-      "https://sites.google.com/view/riyad27";
-    const fileIdMatch = resumeUrl.match(/[-\w]{25,}/);
-    const fileId = fileIdMatch?.[0] ?? "";
-    const downloadUrl = `https://sites.google.com/view/riyad27`;
-    window.location.href = downloadUrl;
+    // const resumeUrl =
+    //   "https://sites.google.com/view/riyad27";
+    // // const fileIdMatch = resumeUrl.match(/[-\w]{25,}/);
+    // // const fileId = fileIdMatch?.[0] ?? "";
+    // const downloadUrl = `https://sites.google.com/view/riyad27`;
+    // window.location.href = downloadUrl;
   };
   return (
     <section className="section" id="about">
@@ -24,7 +24,7 @@ const About = () => {
         >
           Meet Md. Fazle Rabbi Riyad, a proud student of GUB, Dept. of CSE and a&nbsp;
           <span className="text-white">
-          Machine Learning Engineer. &nbsp;
+            Machine Learning Engineer. &nbsp;
           </span>
           I thrive in the world of Machine Learning, where I transform
           concepts into visually appealing interfaces. Passionate and a team
