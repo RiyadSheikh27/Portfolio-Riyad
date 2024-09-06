@@ -27,4 +27,8 @@ After installing the dependencies, you can run the project locally:
 npm run dev
 ```
 
+## Live URL
+- https://riyad-sheikh27.netlify.app/
+
+
 This will start the development server, and you can view the portfolio in your browser at `http://localhost:5173`.
