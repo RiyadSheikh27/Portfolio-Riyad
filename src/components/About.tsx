@@ -24,7 +24,7 @@ const About = () => {
         >
           Meet Md. Fazle Rabbi Riyad, a proud student of GUB, Dept. of CSE and a&nbsp;
           <span className="text-white">
-            Machine Learning Engineer. &nbsp;
+            Python Backend Engineer. &nbsp;
           </span>
           I thrive in the world of Machine Learning, where I transform
           concepts into visually appealing interfaces. Passionate and a team
