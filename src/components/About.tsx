@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 import SectionHead from "../components/SectionHead";
 
 const About = () => {
-  const words = ["Machine Learning Engineer", "Software Engineer", "Programmer"];
+  const words = ["Python Backend Developer", "Software Engineer", "Programmer"];
 
   // ?? Handle Download Resume
   const handleDownload = () => {
@@ -24,15 +24,9 @@ const About = () => {
         >
           Meet Md. Fazle Rabbi Riyad, a proud student of GUB, Dept. of CSE and a&nbsp;
           <span className="text-white">
-            Python Backend Engineer. &nbsp;
+            Python Backend Developer. &nbsp;
           </span>
-          I thrive in the world of Machine Learning, where I transform
-          concepts into visually appealing interfaces. Passionate and a team
-          player, I'm excited to be part of projects that push the boundaries of
-          innovation. I'm not just a coder; I'm a perpetual learner. The dynamic
-          world of technology constantly inspires me to stay ahead of the curve.
-          I'm always exploring new trends, tools, and techniques to enhance my
-          skills.
+          I thrive in the world of Python backend development, where I transform ideas into scalable and efficient solutions. Passionate and a team player, I'm excited to be part of projects that push the boundaries of innovation. I'm not just a coder; I'm a perpetual learner. The dynamic world of technology constantly inspires me to stay ahead of the curve. I'm always exploring new trends, tools, and techniques to enhance my skills.
         </p>
         <div
           data-aos="fade-left"
@@ -61,7 +55,7 @@ const About = () => {
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Work
               </strong>
-              : Machine Learning Engineer
+              : Python Backend Developer
             </li>
             <li className="relative my-list">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">

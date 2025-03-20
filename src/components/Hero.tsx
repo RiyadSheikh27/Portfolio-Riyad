@@ -32,10 +32,10 @@ const Hero = () => {
           Hi, I'm <span className="text-main-color">Md. Fazle Rabbi Riyad</span>
         </h3>
         <h2 className="lg:text-xl -mt-6 text-center">
-          Machine Learning Engineer.
+          Python Backend Developer.
         </h2>
         <p className="text-xs text-center lg:text-lg lg:w-1/2 text-desc-color">
-          I'm dedicated to crafting intelligent solutions through advanced algorithms and data analysis. My focus is on developing models that drive innovation and deliver real-world impact.
+        Passionate backend developer crafting efficient and scalable solutions. Always exploring new technologies to optimize performance and enhance user experience. 🚀
         </p>
         <div className="flex items-center gap-6">
           <a
