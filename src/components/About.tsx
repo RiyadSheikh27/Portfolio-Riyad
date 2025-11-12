@@ -4,15 +4,11 @@ import SectionHead from "../components/SectionHead";
 const About = () => {
   const words = ["Python Backend Developer", "Software Engineer", "Programmer"];
 
-  // ?? Handle Download Resume
-  const handleDownload = () => {
-    const resumeUrl =
-      "https://sites.google.com/view/riyad27";
-    const fileIdMatch = resumeUrl.match(/[-\w]{25,}/);
-    const fileId = fileIdMatch?.[0] ?? "";
-    const downloadUrl = `https://drive.google.com/drive/folders/12JyIWqEkvOhiBhpcGKJ7I3clNIwTtqdi?usp=sharing`;
-    window.location.href = downloadUrl;
-  };
+const handleDownload = () => {
+  const downloadUrl = `https://drive.google.com/drive/folders/12JyIWqEkvOhiBhpcGKJ7I3clNIwTtqdi?usp=sharing`;
+  window.location.href = downloadUrl;
+};
+
   return (
     <section className="section" id="about">
       <SectionHead parallaxValue="About" value="About me" />
