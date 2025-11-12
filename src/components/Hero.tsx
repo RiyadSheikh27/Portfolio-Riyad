@@ -1,7 +1,7 @@
 import { useState } from "react";
 import pattern from "../assets/pattern.png";
-// import profile from "../assets/profile.png";
 import profile from "../assets/profile.jpg";
+import { FaCode, FaKeyboard, FaTrophy } from "react-icons/fa";
 
 import {
   FaFacebookF,
@@ -35,7 +35,7 @@ const Hero = () => {
           Python Backend Developer.
         </h2>
         <p className="text-xs text-center lg:text-lg lg:w-1/2 text-desc-color">
-        Passionate backend developer crafting efficient and scalable solutions. Always exploring new technologies to optimize performance and enhance user experience. 🚀
+        Passionate 'Software Engineer - Backend Focused' crafting efficient and scalable solutions. Always exploring new technologies to optimize performance and enhance user experience. 🚀
         </p>
         <div className="flex items-center gap-6">
           <a
@@ -54,6 +54,14 @@ const Hero = () => {
           </a>
           <a
             className="social-btn"
+            href="https://codeforces.com/profile/Riyad27"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaCode />  {/* or <FaKeyboard /> or <FaTrophy /> */}
+          </a>
+          <a
+            className="social-btn"
             href="https://www.facebook.com/fazle.riyad"
             target="_blank"
           >
@@ -61,11 +69,13 @@ const Hero = () => {
           </a>
           <a
             className="social-btn"
-            href="https://www.instagram.com/riyad_sheikh27"
+            href="https://www.instagram.com/__riyad.py__/"
             target="_blank"
           >
             <FaInstagram />
           </a>
+
+
         </div>
         <div className="absolute flex gap-2 text-xs text-desc-color bottom-4">
           <span className="text-xl animate-bounce">

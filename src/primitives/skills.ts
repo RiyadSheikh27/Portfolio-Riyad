@@ -1,12 +1,16 @@
 import gh from "../assets/icons/github.png";
 import cf from "../assets/icons/codeforces.png";
-import android from "../assets/icons/android.png";
 import ml from "../assets/icons/ML.png";
 import py from "../assets/icons/python.png";
 import dj from "../assets/icons/django.png";
 import fi from "../assets/icons/fast_api.png";
-import ps from "../assets/icons/photoshop.png";
-import da from "../assets/icons/Data_Analysis.png";
+import pg from "../assets/icons/postgres.png"
+import mg from "../assets/icons/mongo.png"
+import rd from "../assets/icons/redis.png"
+import kf from "../assets/icons/kafka-logo.png"
+import aws from "../assets/icons/aws.png"
+import rc from "../assets/icons/react.png"
+
 
 export const skills = [
      {
@@ -22,27 +26,39 @@ export const skills = [
         icon:fi
     },
     {
-        label: "Android Studio",
-        icon: android
+        label: "PostgreSQL",
+        icon:pg
     },
     {
-        label: "Machine Learning",
-        icon: ml
+        label: "React",
+        icon: rc
+    },
+    {
+        label: "MongoDB",
+        icon:mg
+    },
+    {
+        label: "Redis",
+        icon: rd
     },
     {
         label: "Codeforces",
         icon: cf
     },
     {
+        label: "Kafka",
+        icon: kf
+    },
+    {
+        label: "AWS",
+        icon: aws
+    },
+    {
+        label: "Machine Learning",
+        icon: ml
+    },
+    {
         label: "Github",
         icon: gh
-    },
-    {
-        label: "Data Analysis",
-        icon: da
-    },
-    {
-        label: "A. Photoshop",
-        icon: ps
     }
 ]

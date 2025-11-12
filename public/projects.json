@@ -1,36 +1,36 @@
 [
   {
     "id": 24324223,
-    "name": "Loading...",
-    "demoUrl": "Loading...",
-    "githubUrl": "Loading...",
-    "about": "Loading...",
-    "features": ["Loading..."],
-    "technologies": ["Loading..."],
-    "category": "Loading",
-    "image": "https://i.ibb.co/VqW2CJc/7b4dfadca0e599d98bef3f3dda7b48b9.png"
+    "name": "MLK Milk",
+    "demoUrl": "https://mobile-shop-repair.vercel.app/",
+    "githubUrl": "https://github.com/RiyadSheikh27",
+    "about": "Contributed to building the complete backend for MLK Phone, a phone sales and service platform. Implemented features for selecting phone issues, viewing repair prices, booking appointments with scheduling options, purchasing phones and accessories with Stripe payments.",
+    "features": ["Phone Repair Services with multiple price pool", "Sell New Phones", "Sell Accessories", "Payment Gateway with Webhook Implementation"],
+    "technologies": ["Django Rest Framework", "PostgreSQL", "Next.js", "Tailwind", "Email verification", "JWT", "Stripe"],
+    "category": "Full Stack E-Commerce Site",
+    "image": "https://i.postimg.cc/4ydwt7X1/dbdfdsfs.png"
   },
   {
     "id": 24324223,
-    "name": "Loading...",
-    "demoUrl": "Loading...",
-    "githubUrl": "Loading...",
-    "about": "Loading...",
-    "features": ["Loading..."],
-    "technologies": ["Loading..."],
-    "category": "Loading",
-    "image": "https://i.ibb.co/VqW2CJc/7b4dfadca0e599d98bef3f3dda7b48b9.png"
+    "name": "Amader Shikkha",
+    "demoUrl": "https://amadershikkha.com/",
+    "githubUrl": "https://github.com/RiyadSheikh27",
+    "about": "Built a scalable backend for an educational SaaS platform with a Product-Based Home Page, Purchase/Order API, Admin Approval Workflow, and Demo Website showcase, enabling users to browse and purchase school demos securely.",
+    "features": ["Complete SaaS project", "Demo websites to Purchase", "Custom Admin Panel"],
+    "technologies": ["Django REST Framework", "React.js", "Tailwind", "PostgreSQL", "JWT"],
+    "category": "Full Stack SaaS Project",
+    "image": "https://i.postimg.cc/6QcPFGpX/ttttttt.png"
   },
   {
     "id": 24324223,
-    "name": "Loading...",
-    "demoUrl": "Loading...",
-    "githubUrl": "Loading...",
-    "about": "Loading...",
-    "features": ["Loading..."],
-    "technologies": ["Loading..."],
-    "category": "Loading",
-    "image": "https://i.ibb.co/VqW2CJc/7b4dfadca0e599d98bef3f3dda7b48b9.png"
+    "name": "Niras Gallery E-Commerce",
+    "demoUrl": "https://nirasgallery.com/",
+    "githubUrl": "https://github.com/RiyadSheikh27/Portfolio-Riyad",
+    "about": "Contributed to developing the backend for a clothing e-commerce platform featuring JWT Authentication, Product Management, Checkout from Cart and Direct Checkout, along with Filtering, Pagination, and API documentation using Swagger.",
+    "features": ["Real Time E-Commerce with Caching System", "Live Chatting"],
+    "technologies": ["Django Rest Framework", "PostgreSQL", "Test-Driven Development(TDD)", "React.js", "Tailwind", JWT],
+    "category": "Full Stack E-Commerce Site",
+    "image": "https://i.postimg.cc/1z8W772F/ecom.png"
   }
 
 ]

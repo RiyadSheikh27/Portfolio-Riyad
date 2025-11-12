@@ -6,12 +6,12 @@ const About = () => {
 
   // ?? Handle Download Resume
   const handleDownload = () => {
-    // const resumeUrl =
-    //   "https://sites.google.com/view/riyad27";
-    // // const fileIdMatch = resumeUrl.match(/[-\w]{25,}/);
-    // // const fileId = fileIdMatch?.[0] ?? "";
-    // const downloadUrl = `https://sites.google.com/view/riyad27`;
-    // window.location.href = downloadUrl;
+    const resumeUrl =
+      "https://sites.google.com/view/riyad27";
+    const fileIdMatch = resumeUrl.match(/[-\w]{25,}/);
+    const fileId = fileIdMatch?.[0] ?? "";
+    const downloadUrl = `https://drive.google.com/drive/folders/12JyIWqEkvOhiBhpcGKJ7I3clNIwTtqdi?usp=sharing`;
+    window.location.href = downloadUrl;
   };
   return (
     <section className="section" id="about">
@@ -24,7 +24,7 @@ const About = () => {
         >
           Meet Md. Fazle Rabbi Riyad, a proud student of GUB, Dept. of CSE and a&nbsp;
           <span className="text-white">
-            Python Backend Developer. &nbsp;
+          Backend Software Engineer expert in Python, DRF, and PostgreSQL, with experience in FastAPI, React.js, AWS, CI/CD, Docker, Redis, Kafka, ML model integration & Payment gateways. &nbsp;
           </span>
           I thrive in the world of Python backend development, where I transform ideas into scalable and efficient solutions. Passionate and a team player, I'm excited to be part of projects that push the boundaries of innovation. I'm not just a coder; I'm a perpetual learner. The dynamic world of technology constantly inspires me to stay ahead of the curve. I'm always exploring new trends, tools, and techniques to enhance my skills.
         </p>
@@ -47,21 +47,27 @@ const About = () => {
           <ul className="space-y-3 list-disc list-inside">
             <li className="relative my-list">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
-                Name
+                Workplace
               </strong>
-              : Md. Fazle Rabbi Riyad
+              : Zensoft Lab
             </li>
             <li className="relative my-list">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
-                Work
+                Designation
               </strong>
               : Python Backend Developer
             </li>
             <li className="relative my-list">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
+                Duration
+              </strong>
+              : May 2024 – Present
+            </li>
+            <li className="relative my-list">
+              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Study
               </strong>
-              : B.Sc in CSE (GUB)
+              : B.Sc. in Computer Science and Engineering (GUB)
             </li>
             <li className="relative my-list">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
