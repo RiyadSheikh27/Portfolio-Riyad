@@ -1,7 +1,7 @@
 import { useState } from "react";
 import pattern from "../assets/pattern.png";
 import profile from "../assets/profile.jpg";
-import { FaCode, FaKeyboard, FaTrophy } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 
 import {
   FaFacebookF,
