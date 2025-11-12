@@ -28,7 +28,7 @@
     "githubUrl": "https://github.com/RiyadSheikh27/Portfolio-Riyad",
     "about": "Contributed to developing the backend for a clothing e-commerce platform featuring JWT Authentication, Product Management, Checkout from Cart and Direct Checkout, along with Filtering, Pagination, and API documentation using Swagger.",
     "features": ["Real Time E-Commerce with Caching System", "Live Chatting"],
-    "technologies": ["Django Rest Framework", "PostgreSQL", "Test-Driven Development(TDD)", "React.js", "Tailwind", JWT],
+    "technologies": ["Django Rest Framework", "PostgreSQL", "Test-Driven Development(TDD)", "React.js", "Tailwind", "JWT"],
     "category": "Full Stack E-Commerce Site",
     "image": "https://i.postimg.cc/1z8W772F/ecom.png"
   }
