@@ -10,19 +10,19 @@ interface SkillTypes {
 
 const SkillCard = ({ skill, order }: SkillTypes) => {
     return (
-        <div data-aos="zoom-out-dow" data-aos-duration="2000">
+        <div data-aos="fade-up" data-aos-duration="800">
             <Tilt
-                className={`group card bg-[#162033] rounded-3xl shadow-2xl mx-auto w-40 h-40 select-none ${order % 2 === 0 ? "lg:mt-0 mt-5" : "lg:mt-28 mt-5"
-                    }`}
+                className="group card bg-[#162033] rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 w-full h-full select-none"
                 perspective={500}
-                scale={1.1}
+                scale={1.05}
             >
-                <div>
+                <div className="flex flex-col items-center justify-center p-4 sm:p-5">
                     <img
                         src={skill.icon}
-                        className="object-contain h-32 p-4 mx-auto duration-500 saturate-0 group-hover:saturate-100"
+                        alt={skill.label}
+                        className="object-contain h-12 sm:h-14 md:h-16 w-12 sm:w-14 md:w-16 mb-2 sm:mb-3 duration-500 saturate-0 group-hover:saturate-100"
                     />
-                    <h3 className="font-black text-center text-desc-color lg:text-lg">
+                    <h3 className="font-bold text-center text-desc-color text-sm sm:text-base">
                         {skill.label}
                     </h3>
                 </div>
@@ -31,4 +31,4 @@ const SkillCard = ({ skill, order }: SkillTypes) => {
     );
 };
 
-export default SkillCard
+export default SkillCard;

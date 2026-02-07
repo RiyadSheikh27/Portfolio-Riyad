@@ -10,6 +10,17 @@
     "category": "Full Stack E-Commerce Site",
     "image": "https://i.postimg.cc/4ydwt7X1/dbdfdsfs.png"
   },
+    {
+    "id": 24324223,
+    "name": "Social Genius - Top5(APK)⁠",
+    "demoUrl": "https://drive.google.com/file/d/1v-K15YNK_bB5zadcVFEKhoVo76oF-O-0/view",
+    "githubUrl": "https://github.com/RiyadSheikh27/",
+    "about": "Developed backend services for a location-based recommendation app that suggests top 5 places and activities based on user location, distance, and time.",
+    "features": ["•Integrated Google Maps API ", "OpenAI API for intelligent", "real-time recommendations with background task processing", "cloud deployment with AWS"],
+    "technologies": ["Python", "Dart", "Django Rest Framework", "Dart", "PostgreSQL", "Test-Driven Development(TDD)", "OpenAI API", "Google Maps API"],
+    "category": "Full Stack Mobile App",
+    "image": "https://i.postimg.cc/BQbDBCK1/final.png"
+  },
   {
     "id": 24324223,
     "name": "Amader Shikkha",
@@ -20,17 +31,5 @@
     "technologies": ["Django REST Framework", "React.js", "Tailwind", "PostgreSQL", "JWT"],
     "category": "Full Stack SaaS Project",
     "image": "https://i.postimg.cc/6QcPFGpX/ttttttt.png"
-  },
-  {
-    "id": 24324223,
-    "name": "Niras Gallery E-Commerce",
-    "demoUrl": "https://nirasgallery.com/",
-    "githubUrl": "https://github.com/RiyadSheikh27/Portfolio-Riyad",
-    "about": "Contributed to developing the backend for a clothing e-commerce platform featuring JWT Authentication, Product Management, Checkout from Cart and Direct Checkout, along with Filtering, Pagination, and API documentation using Swagger.",
-    "features": ["Real Time E-Commerce with Caching System", "Live Chatting"],
-    "technologies": ["Django Rest Framework", "PostgreSQL", "Test-Driven Development(TDD)", "React.js", "Tailwind", "JWT"],
-    "category": "Full Stack E-Commerce Site",
-    "image": "https://i.postimg.cc/1z8W772F/ecom.png"
   }
-
 ]
