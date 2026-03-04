@@ -45,13 +45,13 @@ const handleDownload = () => {
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Workplace
               </strong>
-              : Zensoft Lab
+              : Join Venture AI (JVAI)
             </li>
             <li className="relative my-list">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Designation
               </strong>
-              : Python Backend Developer
+              : Backend Software Engineer
             </li>
             <li className="relative my-list">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
