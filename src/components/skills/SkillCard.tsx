@@ -8,7 +8,7 @@ interface SkillTypes {
     order: number;
 }
 
-const SkillCard = ({ skill, order }: SkillTypes) => {
+const SkillCard = ({ skill }: SkillTypes) => {
     return (
         <div data-aos="fade-up" data-aos-duration="800">
             <Tilt
