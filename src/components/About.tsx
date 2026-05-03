@@ -20,7 +20,7 @@ const handleDownload = () => {
         >
           Meet Md. Fazle Rabbi Riyad, a proud student of GUB, Dept. of CSE and a&nbsp;
           <span className="text-white">
-          Backend Software Engineer expert in Python, DRF, and PostgreSQL, with experience in FastAPI, React.js, AWS, CI/CD, Docker, Redis, Kafka, ML model integration & Payment gateways. &nbsp;
+          Backend Software Engineer expert in Python, DRF, and PostgreSQL, with experience in FastAPI, React.js, AWS, CI/CD, Docker, Redis, Kafka, EPR, Microservices, ML model integration, Payment gateways etc. &nbsp;
           </span>
           I thrive in the world of Python backend development, where I transform ideas into scalable and efficient solutions. Passionate and a team player, I'm excited to be part of projects that push the boundaries of innovation. I'm not just a coder; I'm a perpetual learner. The dynamic world of technology constantly inspires me to stay ahead of the curve. I'm always exploring new trends, tools, and techniques to enhance my skills.
         </p>
@@ -57,7 +57,7 @@ const handleDownload = () => {
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Duration
               </strong>
-              : May 2024 – Present
+              : 2025 – Present
             </li>
             <li className="relative my-list">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
