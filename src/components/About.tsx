@@ -45,7 +45,7 @@ const handleDownload = () => {
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Workplace
               </strong>
-              : Join Venture AI (JVAI)
+              : Betopia Group, Dhaka, Bangladesh
             </li>
             <li className="relative my-list">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
