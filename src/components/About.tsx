@@ -4,10 +4,10 @@ import SectionHead from "../components/SectionHead";
 const About = () => {
   const words = ["Python Backend Developer", "Software Engineer", "Programmer"];
 
-const handleDownload = () => {
-  const downloadUrl = `https://drive.google.com/drive/folders/12JyIWqEkvOhiBhpcGKJ7I3clNIwTtqdi?usp=sharing`;
-  window.location.href = downloadUrl;
-};
+  const handleDownload = () => {
+    const downloadUrl = `https://drive.google.com/drive/folders/12JyIWqEkvOhiBhpcGKJ7I3clNIwTtqdi?usp=sharing`;
+    window.location.href = downloadUrl;
+  };
 
   return (
     <section className="section" id="about">
@@ -20,7 +20,7 @@ const handleDownload = () => {
         >
           Meet Md. Fazle Rabbi Riyad, a proud student of GUB, Dept. of CSE and a&nbsp;
           <span className="text-white">
-          Backend Software Engineer expert in Python, DRF, and PostgreSQL, with experience in FastAPI, React.js, AWS, CI/CD, Docker, Redis, Kafka, EPR, Microservices, ML model integration, Payment gateways etc. &nbsp;
+            Backend Software Engineer expert in Python, DRF, and PostgreSQL, with experience in FastAPI, React.js, AWS, CI/CD, Docker, Redis, Kafka, EPR, Microservices, ML model integration, Payment gateways etc. &nbsp;
           </span>
           I thrive in the world of Python backend development, where I transform ideas into scalable and efficient solutions. Passionate and a team player, I'm excited to be part of projects that push the boundaries of innovation. I'm not just a coder; I'm a perpetual learner. The dynamic world of technology constantly inspires me to stay ahead of the curve. I'm always exploring new trends, tools, and techniques to enhance my skills.
         </p>

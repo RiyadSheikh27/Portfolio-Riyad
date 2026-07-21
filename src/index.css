@@ -7,14 +7,17 @@
 ::-webkit-scrollbar {
   width: 5px;
 }
+
 ::-webkit-scrollbar-track {
   background: #0e1224;
   border-radius: 0px;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #72e2ae;
   border-radius: 12px;
 }
+
 ::selection {
   color: #0b1224f3;
   background-color: #72e2ae;
@@ -25,18 +28,21 @@ body {
   background-color: #0b1224f3;
   color: #fafafa;
 }
+
 .my-glass {
   backdrop-filter: blur(3px) saturate(0%);
   -webkit-backdrop-filter: blur(3px) saturate(0%);
   background-color: rgba(15, 23, 42, 0.78);
   border-bottom: 1px solid #9394a2;
 }
+
 .my-glass2 {
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(10px);
   background-color: #0f172ac7;
   border-bottom: 1px solid #9394a2;
 }
+
 @keyframes rotate {
   100% {
     transform: rotate(1turn);
@@ -53,6 +59,7 @@ body {
   border-radius: 50%;
   padding: 0.5rem;
 }
+
 .conic::after {
   content: "";
   position: absolute;
@@ -64,6 +71,7 @@ body {
   background: #000;
   border-radius: 50%;
 }
+
 .conic::before {
   content: "";
   position: absolute;
@@ -79,9 +87,11 @@ body {
   background-image: conic-gradient(transparent, #00452e, transparent 30%);
   animation: rotate 4s linear infinite;
 }
+
 .blur-img {
   filter: blur(8px);
 }
+
 .img {
   width: 100%;
   border-radius: 50%;
@@ -101,10 +111,12 @@ body {
   0% {
     left: 0;
   }
+
   100% {
     left: 100%;
   }
 }
+
 .my-list::before {
   content: "";
   position: absolute;
@@ -115,16 +127,20 @@ body {
   border-radius: 9999px;
   background-color: #72e2ae;
 }
+
 @layer components {
   .primary-btn {
     @apply hover:ring-4 ring-sec-color;
   }
+
   .social-btn {
     @apply border shadow-lg shadow-sec-color border-main-color hover:bg-main-color hover:text-gray-800 cursor-pointer lg:p-3 p-2 lg:text-xl text-xs rounded border-b-4 duration-500;
   }
+
   .section {
     @apply lg:w-[1300px] mx-auto lg:mt-20 p-4 overflow-hidden relative;
   }
+
   .project-card {
     @apply flex gap-1 items-center text-xs p-2 border-b-2 border-main-color hover:bg-main-color hover:shadow-lg shadow-main-color hover:text-[#0f172ac7] hover:rounded duration-300;
   }

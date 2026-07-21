@@ -5,19 +5,46 @@
     "demoUrl": "https://mobile-shop-repair.vercel.app/",
     "githubUrl": "https://github.com/RiyadSheikh27",
     "about": "Contributed to building the complete backend for MLK Phone, a phone sales and service platform. Implemented features for selecting phone issues, viewing repair prices, booking appointments with scheduling options, purchasing phones and accessories with Stripe payments.",
-    "features": ["Phone Repair Services with multiple price pool", "Sell New Phones", "Sell Accessories", "Payment Gateway with Webhook Implementation"],
-    "technologies": ["Django Rest Framework", "PostgreSQL", "Next.js", "Tailwind", "Email verification", "JWT", "Stripe"],
+    "features": [
+      "Phone Repair Services with multiple price pool",
+      "Sell New Phones",
+      "Sell Accessories",
+      "Payment Gateway with Webhook Implementation"
+    ],
+    "technologies": [
+      "Django Rest Framework",
+      "PostgreSQL",
+      "Next.js",
+      "Tailwind",
+      "Email verification",
+      "JWT",
+      "Stripe"
+    ],
     "category": "Full Stack E-Commerce Site",
     "image": "https://i.postimg.cc/4ydwt7X1/dbdfdsfs.png"
   },
-    {
+  {
     "id": 24324223,
     "name": "Social Genius - Top5(APK)⁠",
     "demoUrl": "https://drive.google.com/file/d/1v-K15YNK_bB5zadcVFEKhoVo76oF-O-0/view",
     "githubUrl": "https://github.com/RiyadSheikh27/",
     "about": "Developed backend services for a location-based recommendation app that suggests top 5 places and activities based on user location, distance, and time.",
-    "features": ["•Integrated Google Maps API ", "OpenAI API for intelligent", "real-time recommendations with background task processing", "cloud deployment with AWS"],
-    "technologies": ["Python", "Dart", "Django Rest Framework", "Dart", "PostgreSQL", "Test-Driven Development(TDD)", "OpenAI API", "Google Maps API"],
+    "features": [
+      "•Integrated Google Maps API ",
+      "OpenAI API for intelligent",
+      "real-time recommendations with background task processing",
+      "cloud deployment with AWS"
+    ],
+    "technologies": [
+      "Python",
+      "Dart",
+      "Django Rest Framework",
+      "Dart",
+      "PostgreSQL",
+      "Test-Driven Development(TDD)",
+      "OpenAI API",
+      "Google Maps API"
+    ],
     "category": "Full Stack Mobile App",
     "image": "https://i.postimg.cc/BQbDBCK1/final.png"
   },
@@ -27,8 +54,18 @@
     "demoUrl": "https://amadershikkha.com/",
     "githubUrl": "https://github.com/RiyadSheikh27",
     "about": "Built a scalable backend for an educational SaaS platform with a Product-Based Home Page, Purchase/Order API, Admin Approval Workflow, and Demo Website showcase, enabling users to browse and purchase school demos securely.",
-    "features": ["Complete SaaS project", "Demo websites to Purchase", "Custom Admin Panel"],
-    "technologies": ["Django REST Framework", "React.js", "Tailwind", "PostgreSQL", "JWT"],
+    "features": [
+      "Complete SaaS project",
+      "Demo websites to Purchase",
+      "Custom Admin Panel"
+    ],
+    "technologies": [
+      "Django REST Framework",
+      "React.js",
+      "Tailwind",
+      "PostgreSQL",
+      "JWT"
+    ],
     "category": "Full Stack SaaS Project",
     "image": "https://i.postimg.cc/6QcPFGpX/ttttttt.png"
   }

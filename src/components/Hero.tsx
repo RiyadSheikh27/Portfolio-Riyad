@@ -35,7 +35,7 @@ const Hero = () => {
           Software Engineer - Backend Focused (Python)
         </h2>
         <p className="text-xs text-center lg:text-lg lg:w-1/2 text-desc-color">
-        Passionate 'Software Engineer - Backend Focused' crafting efficient and scalable solutions. Always exploring new technologies to optimize performance and enhance user experience. 🚀
+          Passionate 'Software Engineer - Backend Focused' crafting efficient and scalable solutions. Always exploring new technologies to optimize performance and enhance user experience. 🚀
         </p>
         <div className="flex items-center gap-6">
           <a
