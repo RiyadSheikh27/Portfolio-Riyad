@@ -11,15 +11,18 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import MouseAnimation from "./MouseAnimation";
+import HeroBackground from "./HeroBackground";
 const Hero = () => {
   const [isImgLoaded, setIsImgLoaded] = useState<boolean>(true);
   return (
     <section
+      id="home"
       style={{ backgroundImage: `url(${pattern})` }}
-      className="relative"
+      className="hero-section relative overflow-hidden"
     >
+      <HeroBackground />
       <MouseAnimation />
-      <div className="relative flex flex-col items-center justify-center min-h-screen gap-8 p-5 lg:p-0">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen gap-8 p-5 lg:p-0">
         <div className="shadow-2xl conic shadow-sec-color">
           <img
             src={profile}

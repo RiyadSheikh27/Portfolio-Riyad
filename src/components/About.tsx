@@ -40,36 +40,31 @@ const About = () => {
               />
             </span>
           </h3>
-          <ul className="space-y-3 list-disc list-inside">
-            <li className="relative my-list">
-              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
-                Workplace
-              </strong>
-              : Betopia Group, Dhaka, Bangladesh
+          <ul className="space-y-3">
+            <li className="relative my-list about-list-item">
+              <strong className="font-medium">Workplace</strong>
+              <span aria-hidden="true">:</span>
+              <span>Betopia Group, Dhaka, Bangladesh</span>
             </li>
-            <li className="relative my-list">
-              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
-                Designation
-              </strong>
-              : Backend Software Engineer
+            <li className="relative my-list about-list-item">
+              <strong className="font-medium">Designation</strong>
+              <span aria-hidden="true">:</span>
+              <span>Backend Software Engineer</span>
             </li>
-            <li className="relative my-list">
-              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
-                Duration
-              </strong>
-              : 2025 – Present
+            <li className="relative my-list about-list-item">
+              <strong className="font-medium">Duration</strong>
+              <span aria-hidden="true">:</span>
+              <span>2025 – Present</span>
             </li>
-            <li className="relative my-list">
-              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
-                Study
-              </strong>
-              : B.Sc. in Computer Science and Engineering (GUB)
+            <li className="relative my-list about-list-item">
+              <strong className="font-medium">Study</strong>
+              <span aria-hidden="true">:</span>
+              <span>B.Sc. in Computer Science and Engineering (GUB)</span>
             </li>
-            <li className="relative my-list">
-              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
-                Address
-              </strong>
-              : Dhaka, Bangladesh
+            <li className="relative my-list about-list-item">
+              <strong className="font-medium">Address</strong>
+              <span aria-hidden="true">:</span>
+              <span>Dhaka, Bangladesh</span>
             </li>
           </ul>
           <button onClick={handleDownload} className="social-btn">

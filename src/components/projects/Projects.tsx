@@ -18,21 +18,23 @@ const Projects = () => {
   return (
     <section id="projects" className="section">
       <SectionHead parallaxValue="projects" value="my projects" />
-      <div className="grid-cols-3 gap-10 lg:grid lg:mt-20">
-        {projects?.map((project) => (
+      <div className="mt-8 grid grid-cols-1 gap-6 lg:mt-20 lg:grid-cols-3 lg:gap-10">
+        {projects?.map((project, index) => (
           <div
             key={project.id}
-            data-aos="zoom-out-dow"
-            data-aos-duration="2000"
-            className="p-6 bg-[#1a2436e6] text-desc-color rounded-md"
+            data-aos="zoom-out-down"
+            data-aos-duration="1200"
+            data-aos-delay={index * 120}
+            className="project-item group p-6 bg-[#1a2436e6] text-desc-color rounded-md"
           >
-            <figure className="overflow-hidden rounded-md h-60">
+            <figure className="project-item-image overflow-hidden rounded-md h-60">
               <img
                 src={project.image}
-                className="w-full transition-transform duration-[10000ms] hover:-translate-y-[80%]"
+                alt={project.name}
+                className="project-item-img w-full"
               />
             </figure>
-            <h3 className="mt-3 font-black">{project.name}</h3>
+            <h3 className="project-item-title mt-3 font-black">{project.name}</h3>
             <div className="z-40 flex justify-center gap-4 pt-6">
               <label
                 onClick={() => setSelectedProject(project)}

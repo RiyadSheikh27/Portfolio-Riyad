@@ -15,7 +15,13 @@ const ContactInfo: FC<ContactInfoProps> = ({ label, icon: Icon, value }) => {
       </div>
       <div className="space-y-3">
         <h3 className="text-xl font-bold">{label}</h3>
-        <p className="text-desc-color">{value}</p>
+        {label.toLowerCase().includes("email") ? (
+          <a href={`mailto:${value}`} className="text-desc-color hover:text-main-color transition-colors">
+            {value}
+          </a>
+        ) : (
+          <p className="text-desc-color">{value}</p>
+        )}
       </div>
     </div>
   )

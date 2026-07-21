@@ -1,6 +1,5 @@
-import { useRef } from "react";
+import { useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
-import emailjs from "@emailjs/browser";
 
 type Inputs = {
   name: string;
@@ -10,7 +9,10 @@ type Inputs = {
 };
 
 const ContactForm = () => {
-  const formRef = useRef<HTMLFormElement | null>(null);
+  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">(
+    "idle"
+  );
+
   const {
     register,
     handleSubmit,
@@ -18,23 +20,29 @@ const ContactForm = () => {
     formState: { errors },
   } = useForm<Inputs>();
 
-  const serviceId = "service_9m29jdb";
-  const templateId = "template_6ndwom5";
-  const publicKey = "XcyHmQAXgIKZfFVZ0";
+  const handleFormSubmit: SubmitHandler<Inputs> = async (data) => {
+    setStatus("sending");
 
-  const handleFormSubmit: SubmitHandler<Inputs> = () => {
-    if (formRef.current) {
-      emailjs
-        .sendForm(serviceId, templateId, formRef.current, publicKey)
-        .then(() => {
-          reset();
-        });
+    try {
+      const response = await fetch("/.netlify/functions/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send");
+      }
+
+      reset();
+      setStatus("success");
+    } catch {
+      setStatus("error");
     }
   };
 
   return (
     <form
-      ref={formRef}
       data-aos="fade-left"
       data-aos-duration="2000"
       className="col-span-7 bg-[#1a2436e6] p-6 rounded-lg border border-sec-color lg:mt-0 mt-10"
@@ -107,10 +115,21 @@ const ContactForm = () => {
       </div>
       <button
         type="submit"
-        className="mt-4 border-0 rounded shadow-lg btn lg:btn-md btn-sm primary-btn bg-main-color hover:bg-main-color shadow-sec-color"
+        disabled={status === "sending"}
+        className="mt-4 border-0 rounded shadow-lg btn lg:btn-md btn-sm primary-btn bg-main-color hover:bg-main-color shadow-sec-color disabled:opacity-60"
       >
-        <span>Send Message</span>
+        <span>{status === "sending" ? "Sending..." : "Send Message"}</span>
       </button>
+      {status === "success" && (
+        <p className="mt-3 text-sm text-main-color">
+          Message sent successfully. I will get back to you soon.
+        </p>
+      )}
+      {status === "error" && (
+        <p className="mt-3 text-sm text-red-500">
+          Could not send your message. Please try again or email me directly.
+        </p>
+      )}
     </form>
   );
 };
